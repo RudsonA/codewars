@@ -33,3 +33,11 @@ function isPangram(string){
 
     return counter == 26 ? true:false;
 }
+
+------------------------------
+function isPangram(string){
+    string = string.toLowerCase();
+    return "abcdefghijklmnopqrstuvwxyz".split("").every(function(x){
+      return string.indexOf(x) !== -1;
+    });
+  }
