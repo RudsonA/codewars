@@ -1,0 +1,16 @@
+validatePIN
+
+
+javascript
+
+if length of pin is 4 or 6
+	if isNAN() is false return true
+	else
+else return false
+
+
+
+
+python
+
+if 
